@@ -1,28 +1,30 @@
-# pxt-calliope-grove-pn532 - Seeedstudio Grove NFC
+# pn532
 
-Read text records in ISO 14443-3A RFID chips like Mifare Ultralight with MakeCode, your micro:bit or Calliope mini.
+NFC
 
-## MakeCode Blocks Example
-* English
-![alt text](https://github.com/infchem/pxt-calliope-grove-pn532/raw/master/mc_example_en.png "MakeCode Blocks Example English")
-* German 
-![alt text](https://github.com/infchem/pxt-calliope-grove-pn532/raw/master/mc_example_de.png "MakeCode Blocks Example German")
+## Usage
 
-## MakeCode JavaScript Example
+This repository contains a MakeCode extension. To use it in MakeCode,
 
-```javascript
-basic.forever(() => {
-    basic.showString(grove_pn532.readNDEFText())
-})
-```
+* open https://makecode.microbit.org/
+* click on **New Project**
+* click on **Extensions** under the gearwheel menu
+* search for the URL of this repository
 
-## License
+## Collaborators
 
-Copyright (C) 2017 Mirek Hancl
+You can invite users to become collaborators to this repository. This will allow multiple users to work on the same project at the same time.
+[Learn more...](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository)
 
-Licensed under the MIT License (MIT). See LICENSE file for more details.
+To edit this repository in MakeCode,
+
+* open https://makecode.microbit.org/
+* click on **Import** then click on **Import URL**
+* paste the repository URL and click import
 
 ## Supported targets
 
 * for PXT/microbit
-* for PXT/calliope
+* for PXT/microbit
+(The metadata above is needed for package search.)
+

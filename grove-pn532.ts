@@ -9,13 +9,13 @@
 //% parts="grove_pn532"
 namespace grove_pn532 {
     /** Set this to true if you want serial output. */
-    const DEBUG_SERIAL = false;
+    const DEBUG_SERIAL = true;
 
     const ADDRESS = 0x24;
 
     let targetID = 0;
     // if ISO14443-A / Mifare target found, targetID will be 1
-    let running = false;
+    let running = true;
     // if PN532 isn't running, no reading will be possible
 
 	/** 
